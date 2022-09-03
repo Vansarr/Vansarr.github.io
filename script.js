@@ -63,7 +63,7 @@ $(document).ready(function() {
   }
 
   function getAllTasks() {
-    const requestUrl = apiRoot;
+    const requestUrl = apiRoot + "/getTasks";
 
     $.ajax({
       url: requestUrl,
